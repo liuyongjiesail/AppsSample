@@ -14,7 +14,9 @@ struct AppsSampleApp: App {
         WindowGroup {
 //            TabContentView()
 //            StoryContentView()
-            PlannerContentView()
+//            PlannerContentView()
+//            ColorGridContentView()
+            SymbolGridContentView()
         }
     }
 }
