@@ -8,14 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		ED4261232AB03E31003113DE /* AppsSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261222AB03E31003113DE /* AppsSampleApp.swift */; };
-		ED4261252AB03E31003113DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261242AB03E31003113DE /* ContentView.swift */; };
 		ED4261272AB03E32003113DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4261262AB03E32003113DE /* Assets.xcassets */; };
 		ED42612A2AB03E32003113DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4261292AB03E32003113DE /* Preview Assets.xcassets */; };
-		ED42612C2AB03E32003113DE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42612B2AB03E32003113DE /* Persistence.swift */; };
 		ED42612F2AB03E32003113DE /* AppsSample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED42612D2AB03E32003113DE /* AppsSample.xcdatamodeld */; };
 		ED42613A2AB03E32003113DE /* AppsSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261392AB03E32003113DE /* AppsSampleTests.swift */; };
 		ED4261442AB03E32003113DE /* AppsSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261432AB03E32003113DE /* AppsSampleUITests.swift */; };
 		ED4261462AB03E32003113DE /* AppsSampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261452AB03E32003113DE /* AppsSampleUITestsLaunchTests.swift */; };
+		ED4261562AB03F1C003113DE /* TabContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261552AB03F1C003113DE /* TabContentView.swift */; };
+		ED4261582AB03F6A003113DE /* TabHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261572AB03F6A003113DE /* TabHomeView.swift */; };
+		ED42615A2AB04025003113DE /* TabStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261592AB04025003113DE /* TabStoryView.swift */; };
+		ED42615C2AB04033003113DE /* TabFavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42615B2AB04033003113DE /* TabFavoritesView.swift */; };
+		ED42615E2AB0403F003113DE /* TabFunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42615D2AB0403F003113DE /* TabFunFactsView.swift */; };
+		ED4261622AB0420A003113DE /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261612AB0420A003113DE /* TabData.swift */; };
+		ED4261652AB051E6003113DE /* StoryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261642AB051E6003113DE /* StoryContentView.swift */; };
+		ED4261692AB053E3003113DE /* StoryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261682AB053E3003113DE /* StoryModels.swift */; };
+		ED42616B2AB054BD003113DE /* MyStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42616A2AB054BD003113DE /* MyStory.swift */; };
+		ED42616D2AB05535003113DE /* StoryPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42616C2AB05535003113DE /* StoryPageView.swift */; };
+		ED4261702AB05A7F003113DE /* PlannerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42616F2AB05A7F003113DE /* PlannerContentView.swift */; };
+		ED4261742AB06692003113DE /* DPEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261732AB06692003113DE /* DPEvent.swift */; };
+		ED4261762AB06797003113DE /* DPEventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261752AB06797003113DE /* DPEventTask.swift */; };
+		ED4261782AB08507003113DE /* DPEventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261772AB08507003113DE /* DPEventData.swift */; };
+		ED42617A2AB08D28003113DE /* DPEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261792AB08D28003113DE /* DPEventListView.swift */; };
+		ED4261812AB1A876003113DE /* DPEventEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261802AB1A876003113DE /* DPEventEditorView.swift */; };
+		ED4261832AB1AAAB003113DE /* DPEventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261822AB1AAAB003113DE /* DPEventDetailView.swift */; };
+		ED4261852AB1ABC9003113DE /* DPSFSymbolStyling.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261842AB1ABC9003113DE /* DPSFSymbolStyling.swift */; };
+		ED4261872AB1B227003113DE /* DPTaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261862AB1B227003113DE /* DPTaskRowView.swift */; };
+		ED4261892AB1D5E2003113DE /* DPEventRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261882AB1D5E2003113DE /* DPEventRowView.swift */; };
+		ED42618B2AB1DAA8003113DE /* DPSymbolPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED42618A2AB1DAA8003113DE /* DPSymbolPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,10 +57,8 @@
 /* Begin PBXFileReference section */
 		ED42611F2AB03E31003113DE /* AppsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4261222AB03E31003113DE /* AppsSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSampleApp.swift; sourceTree = "<group>"; };
-		ED4261242AB03E31003113DE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ED4261262AB03E32003113DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED4261292AB03E32003113DE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		ED42612B2AB03E32003113DE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		ED42612E2AB03E32003113DE /* AppsSample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppsSample.xcdatamodel; sourceTree = "<group>"; };
 		ED4261302AB03E32003113DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED4261352AB03E32003113DE /* AppsSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppsSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +66,27 @@
 		ED42613F2AB03E32003113DE /* AppsSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppsSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4261432AB03E32003113DE /* AppsSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSampleUITests.swift; sourceTree = "<group>"; };
 		ED4261452AB03E32003113DE /* AppsSampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ED4261552AB03F1C003113DE /* TabContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContentView.swift; sourceTree = "<group>"; };
+		ED4261572AB03F6A003113DE /* TabHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabHomeView.swift; sourceTree = "<group>"; };
+		ED4261592AB04025003113DE /* TabStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabStoryView.swift; sourceTree = "<group>"; };
+		ED42615B2AB04033003113DE /* TabFavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFavoritesView.swift; sourceTree = "<group>"; };
+		ED42615D2AB0403F003113DE /* TabFunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabFunFactsView.swift; sourceTree = "<group>"; };
+		ED4261612AB0420A003113DE /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		ED4261642AB051E6003113DE /* StoryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryContentView.swift; sourceTree = "<group>"; };
+		ED4261682AB053E3003113DE /* StoryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryModels.swift; sourceTree = "<group>"; };
+		ED42616A2AB054BD003113DE /* MyStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStory.swift; sourceTree = "<group>"; };
+		ED42616C2AB05535003113DE /* StoryPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryPageView.swift; sourceTree = "<group>"; };
+		ED42616F2AB05A7F003113DE /* PlannerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlannerContentView.swift; sourceTree = "<group>"; };
+		ED4261732AB06692003113DE /* DPEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEvent.swift; sourceTree = "<group>"; };
+		ED4261752AB06797003113DE /* DPEventTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEventTask.swift; sourceTree = "<group>"; };
+		ED4261772AB08507003113DE /* DPEventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEventData.swift; sourceTree = "<group>"; };
+		ED4261792AB08D28003113DE /* DPEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEventListView.swift; sourceTree = "<group>"; };
+		ED4261802AB1A876003113DE /* DPEventEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEventEditorView.swift; sourceTree = "<group>"; };
+		ED4261822AB1AAAB003113DE /* DPEventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEventDetailView.swift; sourceTree = "<group>"; };
+		ED4261842AB1ABC9003113DE /* DPSFSymbolStyling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPSFSymbolStyling.swift; sourceTree = "<group>"; };
+		ED4261862AB1B227003113DE /* DPTaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPTaskRowView.swift; sourceTree = "<group>"; };
+		ED4261882AB1D5E2003113DE /* DPEventRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPEventRowView.swift; sourceTree = "<group>"; };
+		ED42618A2AB1DAA8003113DE /* DPSymbolPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DPSymbolPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +138,10 @@
 			isa = PBXGroup;
 			children = (
 				ED4261222AB03E31003113DE /* AppsSampleApp.swift */,
-				ED4261242AB03E31003113DE /* ContentView.swift */,
+				ED4261522AB03ED5003113DE /* TabbedInterface */,
+				ED4261632AB05193003113DE /* CustomStory */,
+				ED42616E2AB05922003113DE /* DatePlanner */,
 				ED4261262AB03E32003113DE /* Assets.xcassets */,
-				ED42612B2AB03E32003113DE /* Persistence.swift */,
 				ED4261302AB03E32003113DE /* Info.plist */,
 				ED42612D2AB03E32003113DE /* AppsSample.xcdatamodeld */,
 				ED4261282AB03E32003113DE /* Preview Content */,
@@ -133,6 +172,96 @@
 				ED4261452AB03E32003113DE /* AppsSampleUITestsLaunchTests.swift */,
 			);
 			path = AppsSampleUITests;
+			sourceTree = "<group>";
+		};
+		ED4261522AB03ED5003113DE /* TabbedInterface */ = {
+			isa = PBXGroup;
+			children = (
+				ED4261552AB03F1C003113DE /* TabContentView.swift */,
+				ED4261602AB041E7003113DE /* Views */,
+				ED42615F2AB041DE003113DE /* Models */,
+			);
+			path = TabbedInterface;
+			sourceTree = "<group>";
+		};
+		ED42615F2AB041DE003113DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED4261612AB0420A003113DE /* TabData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED4261602AB041E7003113DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED4261572AB03F6A003113DE /* TabHomeView.swift */,
+				ED4261592AB04025003113DE /* TabStoryView.swift */,
+				ED42615B2AB04033003113DE /* TabFavoritesView.swift */,
+				ED42615D2AB0403F003113DE /* TabFunFactsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED4261632AB05193003113DE /* CustomStory */ = {
+			isa = PBXGroup;
+			children = (
+				ED4261642AB051E6003113DE /* StoryContentView.swift */,
+				ED4261662AB05213003113DE /* Views */,
+				ED4261672AB05218003113DE /* Models */,
+			);
+			path = CustomStory;
+			sourceTree = "<group>";
+		};
+		ED4261662AB05213003113DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED42616C2AB05535003113DE /* StoryPageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED4261672AB05218003113DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED42616A2AB054BD003113DE /* MyStory.swift */,
+				ED4261682AB053E3003113DE /* StoryModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED42616E2AB05922003113DE /* DatePlanner */ = {
+			isa = PBXGroup;
+			children = (
+				ED42616F2AB05A7F003113DE /* PlannerContentView.swift */,
+				ED4261712AB0666E003113DE /* Views */,
+				ED4261722AB06674003113DE /* Models */,
+			);
+			path = DatePlanner;
+			sourceTree = "<group>";
+		};
+		ED4261712AB0666E003113DE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED4261792AB08D28003113DE /* DPEventListView.swift */,
+				ED4261882AB1D5E2003113DE /* DPEventRowView.swift */,
+				ED4261802AB1A876003113DE /* DPEventEditorView.swift */,
+				ED4261822AB1AAAB003113DE /* DPEventDetailView.swift */,
+				ED4261862AB1B227003113DE /* DPTaskRowView.swift */,
+				ED42618A2AB1DAA8003113DE /* DPSymbolPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED4261722AB06674003113DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED4261732AB06692003113DE /* DPEvent.swift */,
+				ED4261772AB08507003113DE /* DPEventData.swift */,
+				ED4261752AB06797003113DE /* DPEventTask.swift */,
+				ED4261842AB1ABC9003113DE /* DPSFSymbolStyling.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +394,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED42612C2AB03E32003113DE /* Persistence.swift in Sources */,
+				ED4261582AB03F6A003113DE /* TabHomeView.swift in Sources */,
+				ED42617A2AB08D28003113DE /* DPEventListView.swift in Sources */,
+				ED4261622AB0420A003113DE /* TabData.swift in Sources */,
+				ED4261742AB06692003113DE /* DPEvent.swift in Sources */,
+				ED4261652AB051E6003113DE /* StoryContentView.swift in Sources */,
 				ED42612F2AB03E32003113DE /* AppsSample.xcdatamodeld in Sources */,
-				ED4261252AB03E31003113DE /* ContentView.swift in Sources */,
+				ED42616B2AB054BD003113DE /* MyStory.swift in Sources */,
+				ED4261812AB1A876003113DE /* DPEventEditorView.swift in Sources */,
+				ED42615C2AB04033003113DE /* TabFavoritesView.swift in Sources */,
+				ED4261692AB053E3003113DE /* StoryModels.swift in Sources */,
+				ED4261762AB06797003113DE /* DPEventTask.swift in Sources */,
+				ED42616D2AB05535003113DE /* StoryPageView.swift in Sources */,
+				ED4261702AB05A7F003113DE /* PlannerContentView.swift in Sources */,
+				ED42615A2AB04025003113DE /* TabStoryView.swift in Sources */,
+				ED4261892AB1D5E2003113DE /* DPEventRowView.swift in Sources */,
+				ED4261872AB1B227003113DE /* DPTaskRowView.swift in Sources */,
+				ED4261782AB08507003113DE /* DPEventData.swift in Sources */,
+				ED4261852AB1ABC9003113DE /* DPSFSymbolStyling.swift in Sources */,
+				ED42618B2AB1DAA8003113DE /* DPSymbolPickerView.swift in Sources */,
+				ED4261562AB03F1C003113DE /* TabContentView.swift in Sources */,
+				ED42615E2AB0403F003113DE /* TabFunFactsView.swift in Sources */,
+				ED4261832AB1AAAB003113DE /* DPEventDetailView.swift in Sources */,
 				ED4261232AB03E31003113DE /* AppsSampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
