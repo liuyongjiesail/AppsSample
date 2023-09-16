@@ -9,6 +9,8 @@ import SwiftUI
 
 @main
 struct AppsSampleApp: App {
+    
+    @Environment(\.scenePhase) private var scenePhase: ScenePhase
 
     var body: some Scene {
         WindowGroup {
@@ -16,7 +18,16 @@ struct AppsSampleApp: App {
 //            StoryContentView()
 //            PlannerContentView()
 //            ColorGridContentView()
-            SymbolGridContentView()
+//            SymbolGridContentView()
+            ImageGalleryContentView()
         }
-    }
+        .onChange(of: scenePhase) { newScenePhase in
+            switch newScenePhase {
+            case .active: print("App active")
+            case .inactive: print("App inactive")
+            case .background: print("App background")
+            @unknown default: print("Others")
+            }
+        }
+    }   
 }

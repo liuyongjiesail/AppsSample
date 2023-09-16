@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED2F5F2A2AB46D560001BDBA /* IGDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F292AB46D560001BDBA /* IGDataModel.swift */; };
+		ED2F5F2C2AB5874A0001BDBA /* IGItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F2B2AB5874A0001BDBA /* IGItem.swift */; };
+		ED2F5F2F2AB590D30001BDBA /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F2E2AB590D30001BDBA /* FileManagerExtension.swift */; };
+		ED2F5F312AB5CC4F0001BDBA /* IGGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F302AB5CC4F0001BDBA /* IGGridItemView.swift */; };
+		ED2F5F492AB5CEEC0001BDBA /* groundSquirrel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F332AB5CEEC0001BDBA /* groundSquirrel.jpg */; };
+		ED2F5F4A2AB5CEEC0001BDBA /* yellowBelliedMarmot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F342AB5CEEC0001BDBA /* yellowBelliedMarmot.jpg */; };
+		ED2F5F4B2AB5CEEC0001BDBA /* bullTuleElkAndTwoFemales.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F352AB5CEEC0001BDBA /* bullTuleElkAndTwoFemales.jpg */; };
+		ED2F5F4C2AB5CEEC0001BDBA /* soaringTheRainbow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F362AB5CEEC0001BDBA /* soaringTheRainbow.jpg */; };
+		ED2F5F4D2AB5CEEC0001BDBA /* harborSealPup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F372AB5CEEC0001BDBA /* harborSealPup.jpg */; };
+		ED2F5F4E2AB5CEEC0001BDBA /* grizzlyCubs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F382AB5CEEC0001BDBA /* grizzlyCubs.jpg */; };
+		ED2F5F4F2AB5CEEC0001BDBA /* redTailedHawk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F392AB5CEEC0001BDBA /* redTailedHawk.jpg */; };
+		ED2F5F502AB5CEEC0001BDBA /* doubleRainbowLowerMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F3A2AB5CEEC0001BDBA /* doubleRainbowLowerMammoth.jpg */; };
+		ED2F5F512AB5CEEC0001BDBA /* newGrowthOfAntlers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F3B2AB5CEEC0001BDBA /* newGrowthOfAntlers.jpg */; };
+		ED2F5F522AB5CEEC0001BDBA /* harborSeal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F3C2AB5CEEC0001BDBA /* harborSeal.jpg */; };
+		ED2F5F532AB5CEEC0001BDBA /* sunriseAtGrottoGeyser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F3D2AB5CEEC0001BDBA /* sunriseAtGrottoGeyser.jpg */; };
+		ED2F5F542AB5CEEC0001BDBA /* owlsAtMammoth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F3E2AB5CEEC0001BDBA /* owlsAtMammoth.jpg */; };
+		ED2F5F552AB5CEEC0001BDBA /* heartSpring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F3F2AB5CEEC0001BDBA /* heartSpring.jpg */; };
+		ED2F5F562AB5CEEC0001BDBA /* bobcat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F402AB5CEEC0001BDBA /* bobcat.jpg */; };
+		ED2F5F572AB5CEEC0001BDBA /* doubleRainbowYellowstone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F412AB5CEEC0001BDBA /* doubleRainbowYellowstone.jpg */; };
+		ED2F5F582AB5CEEC0001BDBA /* bullElk.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F422AB5CEEC0001BDBA /* bullElk.jpg */; };
+		ED2F5F592AB5CEEC0001BDBA /* coyoteAndBison.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F432AB5CEEC0001BDBA /* coyoteAndBison.jpg */; };
+		ED2F5F5A2AB5CEEC0001BDBA /* riverOtter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F442AB5CEEC0001BDBA /* riverOtter.jpg */; };
+		ED2F5F5B2AB5CEEC0001BDBA /* bullElkSparring.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F452AB5CEEC0001BDBA /* bullElkSparring.jpg */; };
+		ED2F5F5C2AB5CEEC0001BDBA /* grizzly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F462AB5CEEC0001BDBA /* grizzly.jpg */; };
+		ED2F5F5D2AB5CEEC0001BDBA /* towerCreekBASIN.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F472AB5CEEC0001BDBA /* towerCreekBASIN.jpg */; };
+		ED2F5F5E2AB5CEEC0001BDBA /* rainbowAndBadlands.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED2F5F482AB5CEEC0001BDBA /* rainbowAndBadlands.jpg */; };
+		ED2F5F602AB5D5EF0001BDBA /* IGGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F5F2AB5D5EF0001BDBA /* IGGridView.swift */; };
+		ED2F5F622AB5E3760001BDBA /* IGPhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F612AB5E3760001BDBA /* IGPhotoPickerView.swift */; };
+		ED2F5F642AB5F7690001BDBA /* IGImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F632AB5F7690001BDBA /* IGImageDetailView.swift */; };
+		ED2F5F672AB615480001BDBA /* TestContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F662AB615480001BDBA /* TestContentView.swift */; };
 		ED4261232AB03E31003113DE /* AppsSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261222AB03E31003113DE /* AppsSampleApp.swift */; };
 		ED4261272AB03E32003113DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4261262AB03E32003113DE /* Assets.xcassets */; };
 		ED42612A2AB03E32003113DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4261292AB03E32003113DE /* Preview Assets.xcassets */; };
@@ -41,6 +71,7 @@
 		ED4BBC492AB3259700DF2EAA /* SGSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4BBC482AB3259700DF2EAA /* SGSymbol.swift */; };
 		ED4BBC4B2AB325E300DF2EAA /* SGSymbolDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4BBC4A2AB325E300DF2EAA /* SGSymbolDetailView.swift */; };
 		ED4BBC4D2AB3332100DF2EAA /* SGSymbolPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4BBC4C2AB3332100DF2EAA /* SGSymbolPickerView.swift */; };
+		ED4BBC542AB467EF00DF2EAA /* ImageGalleryContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4BBC532AB467EF00DF2EAA /* ImageGalleryContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +92,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED2F5F292AB46D560001BDBA /* IGDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGDataModel.swift; sourceTree = "<group>"; };
+		ED2F5F2B2AB5874A0001BDBA /* IGItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGItem.swift; sourceTree = "<group>"; };
+		ED2F5F2E2AB590D30001BDBA /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
+		ED2F5F302AB5CC4F0001BDBA /* IGGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGGridItemView.swift; sourceTree = "<group>"; };
+		ED2F5F332AB5CEEC0001BDBA /* groundSquirrel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = groundSquirrel.jpg; sourceTree = "<group>"; };
+		ED2F5F342AB5CEEC0001BDBA /* yellowBelliedMarmot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yellowBelliedMarmot.jpg; sourceTree = "<group>"; };
+		ED2F5F352AB5CEEC0001BDBA /* bullTuleElkAndTwoFemales.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullTuleElkAndTwoFemales.jpg; sourceTree = "<group>"; };
+		ED2F5F362AB5CEEC0001BDBA /* soaringTheRainbow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = soaringTheRainbow.jpg; sourceTree = "<group>"; };
+		ED2F5F372AB5CEEC0001BDBA /* harborSealPup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSealPup.jpg; sourceTree = "<group>"; };
+		ED2F5F382AB5CEEC0001BDBA /* grizzlyCubs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzlyCubs.jpg; sourceTree = "<group>"; };
+		ED2F5F392AB5CEEC0001BDBA /* redTailedHawk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = redTailedHawk.jpg; sourceTree = "<group>"; };
+		ED2F5F3A2AB5CEEC0001BDBA /* doubleRainbowLowerMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowLowerMammoth.jpg; sourceTree = "<group>"; };
+		ED2F5F3B2AB5CEEC0001BDBA /* newGrowthOfAntlers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = newGrowthOfAntlers.jpg; sourceTree = "<group>"; };
+		ED2F5F3C2AB5CEEC0001BDBA /* harborSeal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = harborSeal.jpg; sourceTree = "<group>"; };
+		ED2F5F3D2AB5CEEC0001BDBA /* sunriseAtGrottoGeyser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sunriseAtGrottoGeyser.jpg; sourceTree = "<group>"; };
+		ED2F5F3E2AB5CEEC0001BDBA /* owlsAtMammoth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = owlsAtMammoth.jpg; sourceTree = "<group>"; };
+		ED2F5F3F2AB5CEEC0001BDBA /* heartSpring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = heartSpring.jpg; sourceTree = "<group>"; };
+		ED2F5F402AB5CEEC0001BDBA /* bobcat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bobcat.jpg; sourceTree = "<group>"; };
+		ED2F5F412AB5CEEC0001BDBA /* doubleRainbowYellowstone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doubleRainbowYellowstone.jpg; sourceTree = "<group>"; };
+		ED2F5F422AB5CEEC0001BDBA /* bullElk.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElk.jpg; sourceTree = "<group>"; };
+		ED2F5F432AB5CEEC0001BDBA /* coyoteAndBison.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coyoteAndBison.jpg; sourceTree = "<group>"; };
+		ED2F5F442AB5CEEC0001BDBA /* riverOtter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = riverOtter.jpg; sourceTree = "<group>"; };
+		ED2F5F452AB5CEEC0001BDBA /* bullElkSparring.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bullElkSparring.jpg; sourceTree = "<group>"; };
+		ED2F5F462AB5CEEC0001BDBA /* grizzly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grizzly.jpg; sourceTree = "<group>"; };
+		ED2F5F472AB5CEEC0001BDBA /* towerCreekBASIN.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = towerCreekBASIN.jpg; sourceTree = "<group>"; };
+		ED2F5F482AB5CEEC0001BDBA /* rainbowAndBadlands.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rainbowAndBadlands.jpg; sourceTree = "<group>"; };
+		ED2F5F5F2AB5D5EF0001BDBA /* IGGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGGridView.swift; sourceTree = "<group>"; };
+		ED2F5F612AB5E3760001BDBA /* IGPhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGPhotoPickerView.swift; sourceTree = "<group>"; };
+		ED2F5F632AB5F7690001BDBA /* IGImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGImageDetailView.swift; sourceTree = "<group>"; };
+		ED2F5F662AB615480001BDBA /* TestContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContentView.swift; sourceTree = "<group>"; };
 		ED42611F2AB03E31003113DE /* AppsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4261222AB03E31003113DE /* AppsSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSampleApp.swift; sourceTree = "<group>"; };
 		ED4261262AB03E32003113DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +160,7 @@
 		ED4BBC482AB3259700DF2EAA /* SGSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSymbol.swift; sourceTree = "<group>"; };
 		ED4BBC4A2AB325E300DF2EAA /* SGSymbolDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSymbolDetailView.swift; sourceTree = "<group>"; };
 		ED4BBC4C2AB3332100DF2EAA /* SGSymbolPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGSymbolPickerView.swift; sourceTree = "<group>"; };
+		ED4BBC532AB467EF00DF2EAA /* ImageGalleryContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGalleryContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +188,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED2F5F272AB46D3A0001BDBA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5F292AB46D560001BDBA /* IGDataModel.swift */,
+				ED2F5F2B2AB5874A0001BDBA /* IGItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED2F5F282AB46D410001BDBA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5F5F2AB5D5EF0001BDBA /* IGGridView.swift */,
+				ED2F5F302AB5CC4F0001BDBA /* IGGridItemView.swift */,
+				ED2F5F632AB5F7690001BDBA /* IGImageDetailView.swift */,
+				ED2F5F612AB5E3760001BDBA /* IGPhotoPickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED2F5F2D2AB58FFB0001BDBA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5F2E2AB590D30001BDBA /* FileManagerExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ED2F5F322AB5CEEC0001BDBA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5F332AB5CEEC0001BDBA /* groundSquirrel.jpg */,
+				ED2F5F342AB5CEEC0001BDBA /* yellowBelliedMarmot.jpg */,
+				ED2F5F352AB5CEEC0001BDBA /* bullTuleElkAndTwoFemales.jpg */,
+				ED2F5F362AB5CEEC0001BDBA /* soaringTheRainbow.jpg */,
+				ED2F5F372AB5CEEC0001BDBA /* harborSealPup.jpg */,
+				ED2F5F382AB5CEEC0001BDBA /* grizzlyCubs.jpg */,
+				ED2F5F392AB5CEEC0001BDBA /* redTailedHawk.jpg */,
+				ED2F5F3A2AB5CEEC0001BDBA /* doubleRainbowLowerMammoth.jpg */,
+				ED2F5F3B2AB5CEEC0001BDBA /* newGrowthOfAntlers.jpg */,
+				ED2F5F3C2AB5CEEC0001BDBA /* harborSeal.jpg */,
+				ED2F5F3D2AB5CEEC0001BDBA /* sunriseAtGrottoGeyser.jpg */,
+				ED2F5F3E2AB5CEEC0001BDBA /* owlsAtMammoth.jpg */,
+				ED2F5F3F2AB5CEEC0001BDBA /* heartSpring.jpg */,
+				ED2F5F402AB5CEEC0001BDBA /* bobcat.jpg */,
+				ED2F5F412AB5CEEC0001BDBA /* doubleRainbowYellowstone.jpg */,
+				ED2F5F422AB5CEEC0001BDBA /* bullElk.jpg */,
+				ED2F5F432AB5CEEC0001BDBA /* coyoteAndBison.jpg */,
+				ED2F5F442AB5CEEC0001BDBA /* riverOtter.jpg */,
+				ED2F5F452AB5CEEC0001BDBA /* bullElkSparring.jpg */,
+				ED2F5F462AB5CEEC0001BDBA /* grizzly.jpg */,
+				ED2F5F472AB5CEEC0001BDBA /* towerCreekBASIN.jpg */,
+				ED2F5F482AB5CEEC0001BDBA /* rainbowAndBadlands.jpg */,
+			);
+			path = Resources;
+			sourceTree = SOURCE_ROOT;
+		};
+		ED2F5F652AB615310001BDBA /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5F662AB615480001BDBA /* TestContentView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		ED4261162AB03E31003113DE = {
 			isa = PBXGroup;
 			children = (
@@ -150,13 +277,16 @@
 			isa = PBXGroup;
 			children = (
 				ED4261222AB03E31003113DE /* AppsSampleApp.swift */,
+				ED2F5F652AB615310001BDBA /* UI */,
 				ED4261522AB03ED5003113DE /* 1-TabbedInterface */,
 				ED4261632AB05193003113DE /* 2-CustomStory */,
 				ED42616E2AB05922003113DE /* 3-DatePlanner */,
 				ED42618C2AB3130F003113DE /* 4-ColorGrid */,
 				ED4BBC412AB324E500DF2EAA /* 5-SymbolGrid */,
-				ED4261262AB03E32003113DE /* Assets.xcassets */,
+				ED4BBC4E2AB33AC200DF2EAA /* 6-ImageGallery */,
 				ED4261302AB03E32003113DE /* Info.plist */,
+				ED4261262AB03E32003113DE /* Assets.xcassets */,
+				ED2F5F322AB5CEEC0001BDBA /* Resources */,
 				ED42612D2AB03E32003113DE /* AppsSample.xcdatamodeld */,
 				ED4261282AB03E32003113DE /* Preview Content */,
 			);
@@ -314,6 +444,17 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		ED4BBC4E2AB33AC200DF2EAA /* 6-ImageGallery */ = {
+			isa = PBXGroup;
+			children = (
+				ED4BBC532AB467EF00DF2EAA /* ImageGalleryContentView.swift */,
+				ED2F5F282AB46D410001BDBA /* Views */,
+				ED2F5F272AB46D3A0001BDBA /* Models */,
+				ED2F5F2D2AB58FFB0001BDBA /* Extension */,
+			);
+			path = "6-ImageGallery";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -418,8 +559,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2F5F4C2AB5CEEC0001BDBA /* soaringTheRainbow.jpg in Resources */,
+				ED2F5F492AB5CEEC0001BDBA /* groundSquirrel.jpg in Resources */,
+				ED2F5F552AB5CEEC0001BDBA /* heartSpring.jpg in Resources */,
+				ED2F5F5A2AB5CEEC0001BDBA /* riverOtter.jpg in Resources */,
+				ED2F5F4B2AB5CEEC0001BDBA /* bullTuleElkAndTwoFemales.jpg in Resources */,
+				ED2F5F562AB5CEEC0001BDBA /* bobcat.jpg in Resources */,
+				ED2F5F592AB5CEEC0001BDBA /* coyoteAndBison.jpg in Resources */,
+				ED2F5F5B2AB5CEEC0001BDBA /* bullElkSparring.jpg in Resources */,
+				ED2F5F582AB5CEEC0001BDBA /* bullElk.jpg in Resources */,
+				ED2F5F542AB5CEEC0001BDBA /* owlsAtMammoth.jpg in Resources */,
+				ED2F5F512AB5CEEC0001BDBA /* newGrowthOfAntlers.jpg in Resources */,
+				ED2F5F5C2AB5CEEC0001BDBA /* grizzly.jpg in Resources */,
+				ED2F5F532AB5CEEC0001BDBA /* sunriseAtGrottoGeyser.jpg in Resources */,
+				ED2F5F5D2AB5CEEC0001BDBA /* towerCreekBASIN.jpg in Resources */,
+				ED2F5F4F2AB5CEEC0001BDBA /* redTailedHawk.jpg in Resources */,
 				ED42612A2AB03E32003113DE /* Preview Assets.xcassets in Resources */,
+				ED2F5F572AB5CEEC0001BDBA /* doubleRainbowYellowstone.jpg in Resources */,
 				ED4261272AB03E32003113DE /* Assets.xcassets in Resources */,
+				ED2F5F4A2AB5CEEC0001BDBA /* yellowBelliedMarmot.jpg in Resources */,
+				ED2F5F5E2AB5CEEC0001BDBA /* rainbowAndBadlands.jpg in Resources */,
+				ED2F5F522AB5CEEC0001BDBA /* harborSeal.jpg in Resources */,
+				ED2F5F502AB5CEEC0001BDBA /* doubleRainbowLowerMammoth.jpg in Resources */,
+				ED2F5F4E2AB5CEEC0001BDBA /* grizzlyCubs.jpg in Resources */,
+				ED2F5F4D2AB5CEEC0001BDBA /* harborSealPup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -444,25 +607,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED2F5F2A2AB46D560001BDBA /* IGDataModel.swift in Sources */,
 				ED42618F2AB3135D003113DE /* ColorGridContentView.swift in Sources */,
 				ED4261582AB03F6A003113DE /* TabHomeView.swift in Sources */,
 				ED42617A2AB08D28003113DE /* DPEventListView.swift in Sources */,
 				ED4261622AB0420A003113DE /* TabData.swift in Sources */,
 				ED4261742AB06692003113DE /* DPEvent.swift in Sources */,
+				ED2F5F2C2AB5874A0001BDBA /* IGItem.swift in Sources */,
 				ED4BBC4B2AB325E300DF2EAA /* SGSymbolDetailView.swift in Sources */,
 				ED4261652AB051E6003113DE /* StoryContentView.swift in Sources */,
 				ED4BBC492AB3259700DF2EAA /* SGSymbol.swift in Sources */,
 				ED42612F2AB03E32003113DE /* AppsSample.xcdatamodeld in Sources */,
 				ED42616B2AB054BD003113DE /* MyStory.swift in Sources */,
+				ED2F5F602AB5D5EF0001BDBA /* IGGridView.swift in Sources */,
 				ED4BBC462AB3255600DF2EAA /* SGSymbolGridView.swift in Sources */,
 				ED4261812AB1A876003113DE /* DPEventEditorView.swift in Sources */,
 				ED42615C2AB04033003113DE /* TabFavoritesView.swift in Sources */,
+				ED2F5F672AB615480001BDBA /* TestContentView.swift in Sources */,
+				ED2F5F312AB5CC4F0001BDBA /* IGGridItemView.swift in Sources */,
 				ED4261692AB053E3003113DE /* StoryModels.swift in Sources */,
 				ED4261762AB06797003113DE /* DPEventTask.swift in Sources */,
 				ED4BBC432AB3252900DF2EAA /* SymbolGridContentView.swift in Sources */,
 				ED42616D2AB05535003113DE /* StoryPageView.swift in Sources */,
+				ED2F5F2F2AB590D30001BDBA /* FileManagerExtension.swift in Sources */,
 				ED4BBC4D2AB3332100DF2EAA /* SGSymbolPickerView.swift in Sources */,
 				ED4261702AB05A7F003113DE /* PlannerContentView.swift in Sources */,
+				ED2F5F642AB5F7690001BDBA /* IGImageDetailView.swift in Sources */,
+				ED4BBC542AB467EF00DF2EAA /* ImageGalleryContentView.swift in Sources */,
+				ED2F5F622AB5E3760001BDBA /* IGPhotoPickerView.swift in Sources */,
 				ED42615A2AB04025003113DE /* TabStoryView.swift in Sources */,
 				ED4261892AB1D5E2003113DE /* DPEventRowView.swift in Sources */,
 				ED4261872AB1B227003113DE /* DPTaskRowView.swift in Sources */,

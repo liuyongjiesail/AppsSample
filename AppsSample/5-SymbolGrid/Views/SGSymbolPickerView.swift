@@ -79,6 +79,9 @@ struct SGSymbolPickerView: View {
         }
         .navigationBarTitle("Picker Symbol")
         .navigationBarTitleDisplayMode(.inline)
+        .onDisappear {
+            self.symbol = nil
+        }
     }
 }
 

@@ -121,7 +121,6 @@ struct SGSymbolGridView: View {
         print(name.name)
         withAnimation {
             symbols.insert(name, at: 0)
-            selectedSymbol = nil
         }
     }
 }
