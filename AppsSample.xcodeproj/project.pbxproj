@@ -37,6 +37,11 @@
 		ED2F5F622AB5E3760001BDBA /* IGPhotoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F612AB5E3760001BDBA /* IGPhotoPickerView.swift */; };
 		ED2F5F642AB5F7690001BDBA /* IGImageDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F632AB5F7690001BDBA /* IGImageDetailView.swift */; };
 		ED2F5F672AB615480001BDBA /* TestContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F662AB615480001BDBA /* TestContentView.swift */; };
+		ED2F5F6C2AB625CD0001BDBA /* LayoutContenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F6B2AB625CD0001BDBA /* LayoutContenView.swift */; };
+		ED2F5F6E2AB626F80001BDBA /* LVSizingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F6D2AB626F80001BDBA /* LVSizingView.swift */; };
+		ED2F5FB92AB87AD00001BDBA /* LVAmazingAlignmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5FB82AB87ACF0001BDBA /* LVAmazingAlignmentView.swift */; };
+		ED2F5FBF2AB880B20001BDBA /* LVPokerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5FBE2AB880B20001BDBA /* LVPokerView.swift */; };
+		ED2F5FC12AB89C4F0001BDBA /* LVMoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5FC02AB89C4F0001BDBA /* LVMoodView.swift */; };
 		ED4261232AB03E31003113DE /* AppsSampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED4261222AB03E31003113DE /* AppsSampleApp.swift */; };
 		ED4261272AB03E32003113DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4261262AB03E32003113DE /* Assets.xcassets */; };
 		ED42612A2AB03E32003113DE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED4261292AB03E32003113DE /* Preview Assets.xcassets */; };
@@ -122,6 +127,11 @@
 		ED2F5F612AB5E3760001BDBA /* IGPhotoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGPhotoPickerView.swift; sourceTree = "<group>"; };
 		ED2F5F632AB5F7690001BDBA /* IGImageDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGImageDetailView.swift; sourceTree = "<group>"; };
 		ED2F5F662AB615480001BDBA /* TestContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestContentView.swift; sourceTree = "<group>"; };
+		ED2F5F6B2AB625CD0001BDBA /* LayoutContenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutContenView.swift; sourceTree = "<group>"; };
+		ED2F5F6D2AB626F80001BDBA /* LVSizingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVSizingView.swift; sourceTree = "<group>"; };
+		ED2F5FB82AB87ACF0001BDBA /* LVAmazingAlignmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVAmazingAlignmentView.swift; sourceTree = "<group>"; };
+		ED2F5FBE2AB880B20001BDBA /* LVPokerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVPokerView.swift; sourceTree = "<group>"; };
+		ED2F5FC02AB89C4F0001BDBA /* LVMoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LVMoodView.swift; sourceTree = "<group>"; };
 		ED42611F2AB03E31003113DE /* AppsSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppsSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED4261222AB03E31003113DE /* AppsSampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsSampleApp.swift; sourceTree = "<group>"; };
 		ED4261262AB03E32003113DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -253,6 +263,18 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		ED2F5F682AB625770001BDBA /* 7-LayoutViews */ = {
+			isa = PBXGroup;
+			children = (
+				ED2F5F6B2AB625CD0001BDBA /* LayoutContenView.swift */,
+				ED2F5F6D2AB626F80001BDBA /* LVSizingView.swift */,
+				ED2F5FB82AB87ACF0001BDBA /* LVAmazingAlignmentView.swift */,
+				ED2F5FBE2AB880B20001BDBA /* LVPokerView.swift */,
+				ED2F5FC02AB89C4F0001BDBA /* LVMoodView.swift */,
+			);
+			path = "7-LayoutViews";
+			sourceTree = "<group>";
+		};
 		ED4261162AB03E31003113DE = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +306,7 @@
 				ED42618C2AB3130F003113DE /* 4-ColorGrid */,
 				ED4BBC412AB324E500DF2EAA /* 5-SymbolGrid */,
 				ED4BBC4E2AB33AC200DF2EAA /* 6-ImageGallery */,
+				ED2F5F682AB625770001BDBA /* 7-LayoutViews */,
 				ED4261302AB03E32003113DE /* Info.plist */,
 				ED4261262AB03E32003113DE /* Assets.xcassets */,
 				ED2F5F322AB5CEEC0001BDBA /* Resources */,
@@ -621,6 +644,7 @@
 				ED42616B2AB054BD003113DE /* MyStory.swift in Sources */,
 				ED2F5F602AB5D5EF0001BDBA /* IGGridView.swift in Sources */,
 				ED4BBC462AB3255600DF2EAA /* SGSymbolGridView.swift in Sources */,
+				ED2F5F6E2AB626F80001BDBA /* LVSizingView.swift in Sources */,
 				ED4261812AB1A876003113DE /* DPEventEditorView.swift in Sources */,
 				ED42615C2AB04033003113DE /* TabFavoritesView.swift in Sources */,
 				ED2F5F672AB615480001BDBA /* TestContentView.swift in Sources */,
@@ -638,7 +662,11 @@
 				ED42615A2AB04025003113DE /* TabStoryView.swift in Sources */,
 				ED4261892AB1D5E2003113DE /* DPEventRowView.swift in Sources */,
 				ED4261872AB1B227003113DE /* DPTaskRowView.swift in Sources */,
+				ED2F5FBF2AB880B20001BDBA /* LVPokerView.swift in Sources */,
+				ED2F5FC12AB89C4F0001BDBA /* LVMoodView.swift in Sources */,
+				ED2F5FB92AB87AD00001BDBA /* LVAmazingAlignmentView.swift in Sources */,
 				ED4261782AB08507003113DE /* DPEventData.swift in Sources */,
+				ED2F5F6C2AB625CD0001BDBA /* LayoutContenView.swift in Sources */,
 				ED4261852AB1ABC9003113DE /* DPSFSymbolStyling.swift in Sources */,
 				ED42618B2AB1DAA8003113DE /* DPSymbolPickerView.swift in Sources */,
 				ED4261562AB03F1C003113DE /* TabContentView.swift in Sources */,

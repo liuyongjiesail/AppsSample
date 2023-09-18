@@ -88,5 +88,8 @@ struct DPEventEditorView_Previews: PreviewProvider {
         NavigationView {
             DPEventEditorView(event: .constant(DPEvent.example)).environmentObject(DPEventData())
         }
+        NavigationView {
+            DPEventEditorView(event: .constant(DPEvent.example), isNew: true).environmentObject(DPEventData())
+        }
     }
 }
