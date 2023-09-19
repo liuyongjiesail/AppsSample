@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED08512F2AB9C7A4007E123B /* Organizing with Grids.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED08512B2AB9C7A4007E123B /* Organizing with Grids.swiftpm */; };
+		ED0851302AB9C7A4007E123B /* Image Gallery.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED08512C2AB9C7A4007E123B /* Image Gallery.swiftpm */; };
+		ED0851312AB9C7A4007E123B /* Editing Grids.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED08512D2AB9C7A4007E123B /* Editing Grids.swiftpm */; };
+		ED0851322AB9C7A4007E123B /* Laying Out Views.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED08512E2AB9C7A4007E123B /* Laying Out Views.swiftpm */; };
+		ED0851362AB9C7B4007E123B /* About Me.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED0851332AB9C7B4007E123B /* About Me.swiftpm */; };
+		ED0851372AB9C7B4007E123B /* Choose Your Own Story.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED0851342AB9C7B4007E123B /* Choose Your Own Story.swiftpm */; };
+		ED0851382AB9C7B4007E123B /* Date Planner.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED0851352AB9C7B4007E123B /* Date Planner.swiftpm */; };
+		ED08513A2AB9C7D7007E123B /* Meme Creator.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED0851392AB9C7D7007E123B /* Meme Creator.swiftpm */; };
 		ED2F5F2A2AB46D560001BDBA /* IGDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F292AB46D560001BDBA /* IGDataModel.swift */; };
 		ED2F5F2C2AB5874A0001BDBA /* IGItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F2B2AB5874A0001BDBA /* IGItem.swift */; };
 		ED2F5F2F2AB590D30001BDBA /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F2E2AB590D30001BDBA /* FileManagerExtension.swift */; };
@@ -97,6 +105,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED08512B2AB9C7A4007E123B /* Organizing with Grids.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Organizing with Grids.swiftpm"; sourceTree = "<group>"; };
+		ED08512C2AB9C7A4007E123B /* Image Gallery.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Image Gallery.swiftpm"; sourceTree = "<group>"; };
+		ED08512D2AB9C7A4007E123B /* Editing Grids.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Editing Grids.swiftpm"; sourceTree = "<group>"; };
+		ED08512E2AB9C7A4007E123B /* Laying Out Views.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Laying Out Views.swiftpm"; sourceTree = "<group>"; };
+		ED0851332AB9C7B4007E123B /* About Me.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "About Me.swiftpm"; sourceTree = "<group>"; };
+		ED0851342AB9C7B4007E123B /* Choose Your Own Story.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Choose Your Own Story.swiftpm"; sourceTree = "<group>"; };
+		ED0851352AB9C7B4007E123B /* Date Planner.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Date Planner.swiftpm"; sourceTree = "<group>"; };
+		ED0851392AB9C7D7007E123B /* Meme Creator.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Meme Creator.swiftpm"; sourceTree = "<group>"; };
 		ED2F5F292AB46D560001BDBA /* IGDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGDataModel.swift; sourceTree = "<group>"; };
 		ED2F5F2B2AB5874A0001BDBA /* IGItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGItem.swift; sourceTree = "<group>"; };
 		ED2F5F2E2AB590D30001BDBA /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
@@ -198,6 +214,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED0851122AB9C5CC007E123B /* AppleSwiftPackage */ = {
+			isa = PBXGroup;
+			children = (
+				ED0851182AB9C604007E123B /* Navigation Apps */,
+				ED0851192AB9C613007E123B /* Presenting Content */,
+				ED08511A2AB9C622007E123B /* Retrieving Content from a Server */,
+			);
+			path = AppleSwiftPackage;
+			sourceTree = "<group>";
+		};
+		ED0851182AB9C604007E123B /* Navigation Apps */ = {
+			isa = PBXGroup;
+			children = (
+				ED0851332AB9C7B4007E123B /* About Me.swiftpm */,
+				ED0851342AB9C7B4007E123B /* Choose Your Own Story.swiftpm */,
+				ED0851352AB9C7B4007E123B /* Date Planner.swiftpm */,
+			);
+			path = "Navigation Apps";
+			sourceTree = "<group>";
+		};
+		ED0851192AB9C613007E123B /* Presenting Content */ = {
+			isa = PBXGroup;
+			children = (
+				ED08512D2AB9C7A4007E123B /* Editing Grids.swiftpm */,
+				ED08512C2AB9C7A4007E123B /* Image Gallery.swiftpm */,
+				ED08512E2AB9C7A4007E123B /* Laying Out Views.swiftpm */,
+				ED08512B2AB9C7A4007E123B /* Organizing with Grids.swiftpm */,
+			);
+			path = "Presenting Content";
+			sourceTree = "<group>";
+		};
+		ED08511A2AB9C622007E123B /* Retrieving Content from a Server */ = {
+			isa = PBXGroup;
+			children = (
+				ED0851392AB9C7D7007E123B /* Meme Creator.swiftpm */,
+			);
+			path = "Retrieving Content from a Server";
+			sourceTree = "<group>";
+		};
 		ED2F5F272AB46D3A0001BDBA /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +354,7 @@
 			isa = PBXGroup;
 			children = (
 				ED4261222AB03E31003113DE /* AppsSampleApp.swift */,
+				ED0851122AB9C5CC007E123B /* AppleSwiftPackage */,
 				ED2F5F652AB615310001BDBA /* UI */,
 				ED4261522AB03ED5003113DE /* 1-TabbedInterface */,
 				ED4261632AB05193003113DE /* 2-CustomStory */,
@@ -582,9 +638,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED08513A2AB9C7D7007E123B /* Meme Creator.swiftpm in Resources */,
 				ED2F5F4C2AB5CEEC0001BDBA /* soaringTheRainbow.jpg in Resources */,
 				ED2F5F492AB5CEEC0001BDBA /* groundSquirrel.jpg in Resources */,
+				ED0851362AB9C7B4007E123B /* About Me.swiftpm in Resources */,
 				ED2F5F552AB5CEEC0001BDBA /* heartSpring.jpg in Resources */,
+				ED0851312AB9C7A4007E123B /* Editing Grids.swiftpm in Resources */,
 				ED2F5F5A2AB5CEEC0001BDBA /* riverOtter.jpg in Resources */,
 				ED2F5F4B2AB5CEEC0001BDBA /* bullTuleElkAndTwoFemales.jpg in Resources */,
 				ED2F5F562AB5CEEC0001BDBA /* bobcat.jpg in Resources */,
@@ -593,10 +652,14 @@
 				ED2F5F582AB5CEEC0001BDBA /* bullElk.jpg in Resources */,
 				ED2F5F542AB5CEEC0001BDBA /* owlsAtMammoth.jpg in Resources */,
 				ED2F5F512AB5CEEC0001BDBA /* newGrowthOfAntlers.jpg in Resources */,
+				ED08512F2AB9C7A4007E123B /* Organizing with Grids.swiftpm in Resources */,
+				ED0851302AB9C7A4007E123B /* Image Gallery.swiftpm in Resources */,
 				ED2F5F5C2AB5CEEC0001BDBA /* grizzly.jpg in Resources */,
+				ED0851322AB9C7A4007E123B /* Laying Out Views.swiftpm in Resources */,
 				ED2F5F532AB5CEEC0001BDBA /* sunriseAtGrottoGeyser.jpg in Resources */,
 				ED2F5F5D2AB5CEEC0001BDBA /* towerCreekBASIN.jpg in Resources */,
 				ED2F5F4F2AB5CEEC0001BDBA /* redTailedHawk.jpg in Resources */,
+				ED0851372AB9C7B4007E123B /* Choose Your Own Story.swiftpm in Resources */,
 				ED42612A2AB03E32003113DE /* Preview Assets.xcassets in Resources */,
 				ED2F5F572AB5CEEC0001BDBA /* doubleRainbowYellowstone.jpg in Resources */,
 				ED4261272AB03E32003113DE /* Assets.xcassets in Resources */,
@@ -605,6 +668,7 @@
 				ED2F5F522AB5CEEC0001BDBA /* harborSeal.jpg in Resources */,
 				ED2F5F502AB5CEEC0001BDBA /* doubleRainbowLowerMammoth.jpg in Resources */,
 				ED2F5F4E2AB5CEEC0001BDBA /* grizzlyCubs.jpg in Resources */,
+				ED0851382AB9C7B4007E123B /* Date Planner.swiftpm in Resources */,
 				ED2F5F4D2AB5CEEC0001BDBA /* harborSealPup.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
