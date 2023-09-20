@@ -19,7 +19,8 @@ struct AppsSampleApp: App {
 //            PlannerContentView()
 //            ColorGridContentView()
 //            SymbolGridContentView()
-            ImageGalleryContentView()
+//            ImageGalleryContentView()
+            MemeCreatorContentView()
         }
         .onChange(of: scenePhase) { newScenePhase in
             switch newScenePhase {

@@ -15,6 +15,11 @@
 		ED0851372AB9C7B4007E123B /* Choose Your Own Story.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED0851342AB9C7B4007E123B /* Choose Your Own Story.swiftpm */; };
 		ED0851382AB9C7B4007E123B /* Date Planner.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED0851352AB9C7B4007E123B /* Date Planner.swiftpm */; };
 		ED08513A2AB9C7D7007E123B /* Meme Creator.swiftpm in Resources */ = {isa = PBXBuildFile; fileRef = ED0851392AB9C7D7007E123B /* Meme Creator.swiftpm */; };
+		ED08513F2AB9CBE1007E123B /* MemeCreatorContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED08513E2AB9CBE1007E123B /* MemeCreatorContentView.swift */; };
+		ED0851432AB9CCDC007E123B /* MMPandaCollectionFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0851422AB9CCDC007E123B /* MMPandaCollectionFetcher.swift */; };
+		ED0851452AB9CE0A007E123B /* MMPanda.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0851442AB9CE0A007E123B /* MMPanda.swift */; };
+		ED0851472AB9CFA0007E123B /* MMLoadableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0851462AB9CFA0007E123B /* MMLoadableImageView.swift */; };
+		ED0851492AB9D213007E123B /* MMMemeCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED0851482AB9D213007E123B /* MMMemeCreatorView.swift */; };
 		ED2F5F2A2AB46D560001BDBA /* IGDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F292AB46D560001BDBA /* IGDataModel.swift */; };
 		ED2F5F2C2AB5874A0001BDBA /* IGItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F2B2AB5874A0001BDBA /* IGItem.swift */; };
 		ED2F5F2F2AB590D30001BDBA /* FileManagerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED2F5F2E2AB590D30001BDBA /* FileManagerExtension.swift */; };
@@ -113,6 +118,11 @@
 		ED0851342AB9C7B4007E123B /* Choose Your Own Story.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Choose Your Own Story.swiftpm"; sourceTree = "<group>"; };
 		ED0851352AB9C7B4007E123B /* Date Planner.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Date Planner.swiftpm"; sourceTree = "<group>"; };
 		ED0851392AB9C7D7007E123B /* Meme Creator.swiftpm */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = "Meme Creator.swiftpm"; sourceTree = "<group>"; };
+		ED08513E2AB9CBE1007E123B /* MemeCreatorContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemeCreatorContentView.swift; sourceTree = "<group>"; };
+		ED0851422AB9CCDC007E123B /* MMPandaCollectionFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMPandaCollectionFetcher.swift; sourceTree = "<group>"; };
+		ED0851442AB9CE0A007E123B /* MMPanda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMPanda.swift; sourceTree = "<group>"; };
+		ED0851462AB9CFA0007E123B /* MMLoadableImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMLoadableImageView.swift; sourceTree = "<group>"; };
+		ED0851482AB9D213007E123B /* MMMemeCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MMMemeCreatorView.swift; sourceTree = "<group>"; };
 		ED2F5F292AB46D560001BDBA /* IGDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGDataModel.swift; sourceTree = "<group>"; };
 		ED2F5F2B2AB5874A0001BDBA /* IGItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IGItem.swift; sourceTree = "<group>"; };
 		ED2F5F2E2AB590D30001BDBA /* FileManagerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileManagerExtension.swift; sourceTree = "<group>"; };
@@ -253,6 +263,34 @@
 			path = "Retrieving Content from a Server";
 			sourceTree = "<group>";
 		};
+		ED08513B2AB9CB90007E123B /* 8-ServerContent */ = {
+			isa = PBXGroup;
+			children = (
+				ED08513E2AB9CBE1007E123B /* MemeCreatorContentView.swift */,
+				ED0851412AB9CCBE007E123B /* Views */,
+				ED0851402AB9CCBA007E123B /* Models */,
+			);
+			path = "8-ServerContent";
+			sourceTree = "<group>";
+		};
+		ED0851402AB9CCBA007E123B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED0851422AB9CCDC007E123B /* MMPandaCollectionFetcher.swift */,
+				ED0851442AB9CE0A007E123B /* MMPanda.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ED0851412AB9CCBE007E123B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED0851482AB9D213007E123B /* MMMemeCreatorView.swift */,
+				ED0851462AB9CFA0007E123B /* MMLoadableImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		ED2F5F272AB46D3A0001BDBA /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -363,8 +401,9 @@
 				ED4BBC412AB324E500DF2EAA /* 5-SymbolGrid */,
 				ED4BBC4E2AB33AC200DF2EAA /* 6-ImageGallery */,
 				ED2F5F682AB625770001BDBA /* 7-LayoutViews */,
-				ED4261302AB03E32003113DE /* Info.plist */,
+				ED08513B2AB9CB90007E123B /* 8-ServerContent */,
 				ED4261262AB03E32003113DE /* Assets.xcassets */,
+				ED4261302AB03E32003113DE /* Info.plist */,
 				ED2F5F322AB5CEEC0001BDBA /* Resources */,
 				ED42612D2AB03E32003113DE /* AppsSample.xcdatamodeld */,
 				ED4261282AB03E32003113DE /* Preview Content */,
@@ -701,9 +740,11 @@
 				ED4261622AB0420A003113DE /* TabData.swift in Sources */,
 				ED4261742AB06692003113DE /* DPEvent.swift in Sources */,
 				ED2F5F2C2AB5874A0001BDBA /* IGItem.swift in Sources */,
+				ED0851432AB9CCDC007E123B /* MMPandaCollectionFetcher.swift in Sources */,
 				ED4BBC4B2AB325E300DF2EAA /* SGSymbolDetailView.swift in Sources */,
 				ED4261652AB051E6003113DE /* StoryContentView.swift in Sources */,
 				ED4BBC492AB3259700DF2EAA /* SGSymbol.swift in Sources */,
+				ED0851492AB9D213007E123B /* MMMemeCreatorView.swift in Sources */,
 				ED42612F2AB03E32003113DE /* AppsSample.xcdatamodeld in Sources */,
 				ED42616B2AB054BD003113DE /* MyStory.swift in Sources */,
 				ED2F5F602AB5D5EF0001BDBA /* IGGridView.swift in Sources */,
@@ -711,6 +752,7 @@
 				ED2F5F6E2AB626F80001BDBA /* LVSizingView.swift in Sources */,
 				ED4261812AB1A876003113DE /* DPEventEditorView.swift in Sources */,
 				ED42615C2AB04033003113DE /* TabFavoritesView.swift in Sources */,
+				ED08513F2AB9CBE1007E123B /* MemeCreatorContentView.swift in Sources */,
 				ED2F5F672AB615480001BDBA /* TestContentView.swift in Sources */,
 				ED2F5F312AB5CC4F0001BDBA /* IGGridItemView.swift in Sources */,
 				ED4261692AB053E3003113DE /* StoryModels.swift in Sources */,
@@ -722,6 +764,8 @@
 				ED4261702AB05A7F003113DE /* PlannerContentView.swift in Sources */,
 				ED2F5F642AB5F7690001BDBA /* IGImageDetailView.swift in Sources */,
 				ED4BBC542AB467EF00DF2EAA /* ImageGalleryContentView.swift in Sources */,
+				ED0851472AB9CFA0007E123B /* MMLoadableImageView.swift in Sources */,
+				ED0851452AB9CE0A007E123B /* MMPanda.swift in Sources */,
 				ED2F5F622AB5E3760001BDBA /* IGPhotoPickerView.swift in Sources */,
 				ED42615A2AB04025003113DE /* TabStoryView.swift in Sources */,
 				ED4261892AB1D5E2003113DE /* DPEventRowView.swift in Sources */,
