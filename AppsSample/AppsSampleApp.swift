@@ -21,7 +21,8 @@ struct AppsSampleApp: App {
 //            SymbolGridContentView()
 //            ImageGalleryContentView()
 //            MemeCreatorContentView()
-            BubbleLevelContentView()
+//            BubbleLevelContentView()
+            SeismometerContentView()
         }
         .onChange(of: scenePhase) { newScenePhase in
             switch newScenePhase {
