@@ -96,11 +96,17 @@
 		ED7934FD2ABC6D7000CB6A9F /* SMGraphSeismometerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7934FC2ABC6D7000CB6A9F /* SMGraphSeismometerView.swift */; };
 		ED7934FF2ABD325900CB6A9F /* SMLineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7934FE2ABD325900CB6A9F /* SMLineGraphView.swift */; };
 		ED7935012ABD3B5300CB6A9F /* SMSeismometerBrowserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7935002ABD3B5300CB6A9F /* SMSeismometerBrowserView.swift */; };
+		ED7935042ACE3D0D00CB6A9F /* RecognizingGesturesContentView .swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7935032ACE3D0D00CB6A9F /* RecognizingGesturesContentView .swift */; };
+		ED7935072ACE3D2F00CB6A9F /* RGTapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7935062ACE3D2F00CB6A9F /* RGTapView.swift */; };
+		ED79350B2ACE3F4400CB6A9F /* RGLongPressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED79350A2ACE3F4400CB6A9F /* RGLongPressView.swift */; };
 		ED9981092ABB0DD80047DC4B /* BubbleLevelContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9981082ABB0DD80047DC4B /* BubbleLevelContentView.swift */; };
 		ED99810D2ABB0E080047DC4B /* BLBubbleLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99810C2ABB0E080047DC4B /* BLBubbleLevelView.swift */; };
 		ED99810F2ABB0E340047DC4B /* BLMotionDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED99810E2ABB0E340047DC4B /* BLMotionDetector.swift */; };
 		ED9981112ABB125F0047DC4B /* BLOrientationDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9981102ABB125F0047DC4B /* BLOrientationDataView.swift */; };
 		ED9981142ABB1EBE0047DC4B /* BLLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9981132ABB1EBE0047DC4B /* BLLevelView.swift */; };
+		EDD9CA6E2ACE857500F758D1 /* RGDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA6D2ACE857500F758D1 /* RGDragView.swift */; };
+		EDD9CA702ACE87A700F758D1 /* RGRotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA6F2ACE87A700F758D1 /* RGRotateView.swift */; };
+		EDD9CA722ACE8DCD00F758D1 /* RGSingleLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA712ACE8DCD00F758D1 /* RGSingleLineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -214,12 +220,18 @@
 		ED7934FC2ABC6D7000CB6A9F /* SMGraphSeismometerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMGraphSeismometerView.swift; sourceTree = "<group>"; };
 		ED7934FE2ABD325900CB6A9F /* SMLineGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMLineGraphView.swift; sourceTree = "<group>"; };
 		ED7935002ABD3B5300CB6A9F /* SMSeismometerBrowserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSeismometerBrowserView.swift; sourceTree = "<group>"; };
+		ED7935032ACE3D0D00CB6A9F /* RecognizingGesturesContentView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RecognizingGesturesContentView .swift"; sourceTree = "<group>"; };
+		ED7935062ACE3D2F00CB6A9F /* RGTapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGTapView.swift; sourceTree = "<group>"; };
+		ED79350A2ACE3F4400CB6A9F /* RGLongPressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGLongPressView.swift; sourceTree = "<group>"; };
 		ED9981082ABB0DD80047DC4B /* BubbleLevelContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BubbleLevelContentView.swift; sourceTree = "<group>"; };
 		ED99810C2ABB0E080047DC4B /* BLBubbleLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLBubbleLevelView.swift; sourceTree = "<group>"; };
 		ED99810E2ABB0E340047DC4B /* BLMotionDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLMotionDetector.swift; sourceTree = "<group>"; };
 		ED9981102ABB125F0047DC4B /* BLOrientationDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLOrientationDataView.swift; sourceTree = "<group>"; };
 		ED9981132ABB1EBE0047DC4B /* BLLevelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLLevelView.swift; sourceTree = "<group>"; };
 		ED9981162ABB23750047DC4B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EDD9CA6D2ACE857500F758D1 /* RGDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGDragView.swift; sourceTree = "<group>"; };
+		EDD9CA6F2ACE87A700F758D1 /* RGRotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGRotateView.swift; sourceTree = "<group>"; };
+		EDD9CA712ACE8DCD00F758D1 /* RGSingleLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGSingleLineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -428,6 +440,7 @@
 				ED08513B2AB9CB90007E123B /* 8-ServerContent */,
 				ED9981072ABB0DB10047DC4B /* 9-BubbleLevel */,
 				ED7934F42ABC677500CB6A9F /* 10-Seismometer */,
+				ED7935022ACE3CF200CB6A9F /* 11-RecognizingGestures  */,
 				ED4261262AB03E32003113DE /* Assets.xcassets */,
 				ED4261302AB03E32003113DE /* Info.plist */,
 				ED2F5F322AB5CEEC0001BDBA /* Resources */,
@@ -616,6 +629,27 @@
 				ED7934FA2ABC6AE000CB6A9F /* SMGaugeBackgroundView.swift */,
 				ED7934FC2ABC6D7000CB6A9F /* SMGraphSeismometerView.swift */,
 				ED7934FE2ABD325900CB6A9F /* SMLineGraphView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ED7935022ACE3CF200CB6A9F /* 11-RecognizingGestures  */ = {
+			isa = PBXGroup;
+			children = (
+				ED7935032ACE3D0D00CB6A9F /* RecognizingGesturesContentView .swift */,
+				ED7935052ACE3D1A00CB6A9F /* Views */,
+			);
+			path = "11-RecognizingGestures ";
+			sourceTree = "<group>";
+		};
+		ED7935052ACE3D1A00CB6A9F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ED7935062ACE3D2F00CB6A9F /* RGTapView.swift */,
+				ED79350A2ACE3F4400CB6A9F /* RGLongPressView.swift */,
+				EDD9CA6D2ACE857500F758D1 /* RGDragView.swift */,
+				EDD9CA6F2ACE87A700F758D1 /* RGRotateView.swift */,
+				EDD9CA712ACE8DCD00F758D1 /* RGSingleLineView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -820,6 +854,7 @@
 				ED42618F2AB3135D003113DE /* ColorGridContentView.swift in Sources */,
 				ED4261582AB03F6A003113DE /* TabHomeView.swift in Sources */,
 				ED42617A2AB08D28003113DE /* DPEventListView.swift in Sources */,
+				ED7935072ACE3D2F00CB6A9F /* RGTapView.swift in Sources */,
 				ED4261622AB0420A003113DE /* TabData.swift in Sources */,
 				ED4261742AB06692003113DE /* DPEvent.swift in Sources */,
 				ED2F5F2C2AB5874A0001BDBA /* IGItem.swift in Sources */,
@@ -831,6 +866,7 @@
 				ED7935012ABD3B5300CB6A9F /* SMSeismometerBrowserView.swift in Sources */,
 				ED0851492AB9D213007E123B /* MMMemeCreatorView.swift in Sources */,
 				ED42612F2AB03E32003113DE /* AppsSample.xcdatamodeld in Sources */,
+				EDD9CA702ACE87A700F758D1 /* RGRotateView.swift in Sources */,
 				ED42616B2AB054BD003113DE /* MyStory.swift in Sources */,
 				ED9981142ABB1EBE0047DC4B /* BLLevelView.swift in Sources */,
 				ED2F5F602AB5D5EF0001BDBA /* IGGridView.swift in Sources */,
@@ -843,10 +879,12 @@
 				ED42615C2AB04033003113DE /* TabFavoritesView.swift in Sources */,
 				ED08513F2AB9CBE1007E123B /* MemeCreatorContentView.swift in Sources */,
 				ED99810F2ABB0E340047DC4B /* BLMotionDetector.swift in Sources */,
+				EDD9CA6E2ACE857500F758D1 /* RGDragView.swift in Sources */,
 				ED2F5F672AB615480001BDBA /* TestContentView.swift in Sources */,
 				ED2F5F312AB5CC4F0001BDBA /* IGGridItemView.swift in Sources */,
 				ED4261692AB053E3003113DE /* StoryModels.swift in Sources */,
 				ED4261762AB06797003113DE /* DPEventTask.swift in Sources */,
+				EDD9CA722ACE8DCD00F758D1 /* RGSingleLineView.swift in Sources */,
 				ED4BBC432AB3252900DF2EAA /* SymbolGridContentView.swift in Sources */,
 				ED42616D2AB05535003113DE /* StoryPageView.swift in Sources */,
 				ED2F5F2F2AB590D30001BDBA /* FileManagerExtension.swift in Sources */,
@@ -875,6 +913,8 @@
 				ED42615E2AB0403F003113DE /* TabFunFactsView.swift in Sources */,
 				ED4261832AB1AAAB003113DE /* DPEventDetailView.swift in Sources */,
 				ED4261232AB03E31003113DE /* AppsSampleApp.swift in Sources */,
+				ED7935042ACE3D0D00CB6A9F /* RecognizingGesturesContentView .swift in Sources */,
+				ED79350B2ACE3F4400CB6A9F /* RGLongPressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
