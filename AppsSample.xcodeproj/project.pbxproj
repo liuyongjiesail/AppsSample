@@ -107,6 +107,14 @@
 		EDD9CA6E2ACE857500F758D1 /* RGDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA6D2ACE857500F758D1 /* RGDragView.swift */; };
 		EDD9CA702ACE87A700F758D1 /* RGRotateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA6F2ACE87A700F758D1 /* RGRotateView.swift */; };
 		EDD9CA722ACE8DCD00F758D1 /* RGSingleLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA712ACE8DCD00F758D1 /* RGSingleLineView.swift */; };
+		EDD9CA752ACEA70A00F758D1 /* AnimatingShapesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA742ACEA70A00F758D1 /* AnimatingShapesContentView.swift */; };
+		EDD9CA782AD1676D00F758D1 /* ASHeartPulseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA772AD1676D00F758D1 /* ASHeartPulseView.swift */; };
+		EDD9CA7A2AD1783800F758D1 /* ASPlayResetButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA792AD1783800F758D1 /* ASPlayResetButton.swift */; };
+		EDD9CA7C2AD180C300F758D1 /* ASSpinningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA7B2AD180C300F758D1 /* ASSpinningView.swift */; };
+		EDD9CA7E2AD1837100F758D1 /* ASExplodingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA7D2AD1837100F758D1 /* ASExplodingView.swift */; };
+		EDD9CA802AD185DA00F758D1 /* ASRollinRainbowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA7F2AD185DA00F758D1 /* ASRollinRainbowView.swift */; };
+		EDD9CA822AD189D400F758D1 /* ASDragNDropDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CA812AD189D400F758D1 /* ASDragNDropDotsView.swift */; };
+		EDD9CAC82AD41CF400F758D1 /* ASDancingDotsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDD9CAC72AD41CF400F758D1 /* ASDancingDotsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,6 +240,14 @@
 		EDD9CA6D2ACE857500F758D1 /* RGDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGDragView.swift; sourceTree = "<group>"; };
 		EDD9CA6F2ACE87A700F758D1 /* RGRotateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGRotateView.swift; sourceTree = "<group>"; };
 		EDD9CA712ACE8DCD00F758D1 /* RGSingleLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGSingleLineView.swift; sourceTree = "<group>"; };
+		EDD9CA742ACEA70A00F758D1 /* AnimatingShapesContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatingShapesContentView.swift; sourceTree = "<group>"; };
+		EDD9CA772AD1676D00F758D1 /* ASHeartPulseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASHeartPulseView.swift; sourceTree = "<group>"; };
+		EDD9CA792AD1783800F758D1 /* ASPlayResetButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPlayResetButton.swift; sourceTree = "<group>"; };
+		EDD9CA7B2AD180C300F758D1 /* ASSpinningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASSpinningView.swift; sourceTree = "<group>"; };
+		EDD9CA7D2AD1837100F758D1 /* ASExplodingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASExplodingView.swift; sourceTree = "<group>"; };
+		EDD9CA7F2AD185DA00F758D1 /* ASRollinRainbowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASRollinRainbowView.swift; sourceTree = "<group>"; };
+		EDD9CA812AD189D400F758D1 /* ASDragNDropDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDragNDropDotsView.swift; sourceTree = "<group>"; };
+		EDD9CAC72AD41CF400F758D1 /* ASDancingDotsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASDancingDotsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -441,6 +457,7 @@
 				ED9981072ABB0DB10047DC4B /* 9-BubbleLevel */,
 				ED7934F42ABC677500CB6A9F /* 10-Seismometer */,
 				ED7935022ACE3CF200CB6A9F /* 11-RecognizingGestures  */,
+				EDD9CA732ACE92EB00F758D1 /* 12-AnimatingShapes  */,
 				ED4261262AB03E32003113DE /* Assets.xcassets */,
 				ED4261302AB03E32003113DE /* Info.plist */,
 				ED2F5F322AB5CEEC0001BDBA /* Resources */,
@@ -690,6 +707,29 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EDD9CA732ACE92EB00F758D1 /* 12-AnimatingShapes  */ = {
+			isa = PBXGroup;
+			children = (
+				EDD9CA742ACEA70A00F758D1 /* AnimatingShapesContentView.swift */,
+				EDD9CA762ACEA71000F758D1 /* Views */,
+			);
+			path = "12-AnimatingShapes ";
+			sourceTree = "<group>";
+		};
+		EDD9CA762ACEA71000F758D1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EDD9CA772AD1676D00F758D1 /* ASHeartPulseView.swift */,
+				EDD9CA7B2AD180C300F758D1 /* ASSpinningView.swift */,
+				EDD9CA7D2AD1837100F758D1 /* ASExplodingView.swift */,
+				EDD9CA7F2AD185DA00F758D1 /* ASRollinRainbowView.swift */,
+				EDD9CA812AD189D400F758D1 /* ASDragNDropDotsView.swift */,
+				EDD9CAC72AD41CF400F758D1 /* ASDancingDotsView.swift */,
+				EDD9CA792AD1783800F758D1 /* ASPlayResetButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -861,7 +901,10 @@
 				ED0851432AB9CCDC007E123B /* MMPandaCollectionFetcher.swift in Sources */,
 				ED4BBC4B2AB325E300DF2EAA /* SGSymbolDetailView.swift in Sources */,
 				ED9981112ABB125F0047DC4B /* BLOrientationDataView.swift in Sources */,
+				EDD9CA7A2AD1783800F758D1 /* ASPlayResetButton.swift in Sources */,
 				ED4261652AB051E6003113DE /* StoryContentView.swift in Sources */,
+				EDD9CA752ACEA70A00F758D1 /* AnimatingShapesContentView.swift in Sources */,
+				EDD9CA822AD189D400F758D1 /* ASDragNDropDotsView.swift in Sources */,
 				ED4BBC492AB3259700DF2EAA /* SGSymbol.swift in Sources */,
 				ED7935012ABD3B5300CB6A9F /* SMSeismometerBrowserView.swift in Sources */,
 				ED0851492AB9D213007E123B /* MMMemeCreatorView.swift in Sources */,
@@ -887,9 +930,13 @@
 				EDD9CA722ACE8DCD00F758D1 /* RGSingleLineView.swift in Sources */,
 				ED4BBC432AB3252900DF2EAA /* SymbolGridContentView.swift in Sources */,
 				ED42616D2AB05535003113DE /* StoryPageView.swift in Sources */,
+				EDD9CA802AD185DA00F758D1 /* ASRollinRainbowView.swift in Sources */,
+				EDD9CAC82AD41CF400F758D1 /* ASDancingDotsView.swift in Sources */,
 				ED2F5F2F2AB590D30001BDBA /* FileManagerExtension.swift in Sources */,
 				ED7934FD2ABC6D7000CB6A9F /* SMGraphSeismometerView.swift in Sources */,
+				EDD9CA782AD1676D00F758D1 /* ASHeartPulseView.swift in Sources */,
 				ED4BBC4D2AB3332100DF2EAA /* SGSymbolPickerView.swift in Sources */,
+				EDD9CA7E2AD1837100F758D1 /* ASExplodingView.swift in Sources */,
 				ED99810D2ABB0E080047DC4B /* BLBubbleLevelView.swift in Sources */,
 				ED7934FB2ABC6AE000CB6A9F /* SMGaugeBackgroundView.swift in Sources */,
 				ED7934F92ABC67DD00CB6A9F /* SMNeedleSeismometerView.swift in Sources */,
@@ -897,6 +944,7 @@
 				ED2F5F642AB5F7690001BDBA /* IGImageDetailView.swift in Sources */,
 				ED4BBC542AB467EF00DF2EAA /* ImageGalleryContentView.swift in Sources */,
 				ED0851472AB9CFA0007E123B /* MMLoadableImageView.swift in Sources */,
+				EDD9CA7C2AD180C300F758D1 /* ASSpinningView.swift in Sources */,
 				ED0851452AB9CE0A007E123B /* MMPanda.swift in Sources */,
 				ED2F5F622AB5E3760001BDBA /* IGPhotoPickerView.swift in Sources */,
 				ED42615A2AB04025003113DE /* TabStoryView.swift in Sources */,
