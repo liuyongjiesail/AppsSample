@@ -11,19 +11,32 @@ import SwiftUI
 struct AppsSampleApp: App {
     
     @Environment(\.scenePhase) private var scenePhase: ScenePhase
+    
+    private var rootViews: [AnyView] = [
+        AnyView(TabContentView()),
+        AnyView(StoryContentView()),
+        AnyView(PlannerContentView()),
+        AnyView(ColorGridContentView()),
+        AnyView(SymbolGridContentView()),
+        AnyView(ImageGalleryContentView()),
+        AnyView(BubbleLevelContentView()),
+        AnyView(SeismometerContentView()),
+        AnyView(AnimatingShapesContentView())
+    ]
 
     var body: some Scene {
         WindowGroup {
+//            rootViews.randomElement()
 //            TabContentView()
 //            StoryContentView()
 //            PlannerContentView()
 //            ColorGridContentView()
 //            SymbolGridContentView()
 //            ImageGalleryContentView()
-//            MemeCreatorContentView()
 //            BubbleLevelContentView()
 //            SeismometerContentView()
-            AnimatingShapesContentView()
+//            AnimatingShapesContentView()
+            PreviewingCameraContentView()
         }
         .onChange(of: scenePhase) { newScenePhase in
             switch newScenePhase {
